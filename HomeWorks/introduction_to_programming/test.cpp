@@ -109,6 +109,33 @@ int main(){
 
     cout << answer; 
     */
+
+
+   //integer 9
+   /*int i;
+   int answer;
+
+    cin >> i;
+
+    answer = i / 100;
+
+    cout << answer;
+    */
+
+
+    //integer 10
+    int i;
+    int ones;
+    int tens;
+    
+    cin >> i;
+
+    ones = (i % 100) % 10;
+    tens = (i % 100) / 10;
+
+    cout << ones;
+    cout << tens;
+
     return 0;
 
 
