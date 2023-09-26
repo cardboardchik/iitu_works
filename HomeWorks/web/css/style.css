@@ -1,0 +1,54 @@
+/* ======== CSS reset ======== */
+html{
+    font-family: Georgia, Palatino Linotype, Palatino, serif;
+    font-size: 100%;
+    font-weight: 400;
+    color: #797979;
+}
+h{
+    font-weight: 800;
+}
+body {
+    
+}
+div{
+
+}
+h1{
+    font-size: 2em;
+    text-align: center;
+}
+h2{
+    font-size: 1.5em;
+}
+h3{
+    font-size: 1.3em;
+}
+h4{
+    font-size: 1.1em;
+    text-transform: capitalize;
+}
+p{
+    font-size: .95em;
+    line-height: 1.4em;
+}
+ul{
+    background: #eee;
+}
+li{
+    list-style: square;
+    line-height: 1.8em;
+}
+a:link, a:visited{
+    font-size: .95em;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+/* ======== general styles ======== */
+h1, h2, h3, h4{
+    font-weight: 800;
+    color: #000;
+    text-transform: capitalize;
+}
+/* ======== header styles ======== */
