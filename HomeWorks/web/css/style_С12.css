@@ -44,7 +44,6 @@ li{
 
 
 a:link, a:visited{
-    display: block;
     font-size: .95em;
     text-decoration: underline;
     width: 100px;

@@ -83,12 +83,13 @@ h1, h2, h3, h4{
     border-bottom: 1.5px dashed #ccc;
 }
 
-#header .logo{
-    background:	url("https://1000logos.net/wp-content/uploads/2020/07/AliExpress-Logo.jpg") no-repeat;
+.logo{
+    background:	url("https://u2p.kz/wp-content/uploads/2023/06/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81-3.svg") no-repeat;
     width: 394px;
     height: 67px;
 
     position: absolute;
-    top: 40px;
+    top: 50px;
     left: 30px;
+    
 }
