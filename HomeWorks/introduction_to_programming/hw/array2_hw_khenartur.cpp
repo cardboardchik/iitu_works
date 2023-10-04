@@ -73,6 +73,26 @@ int main(){
     */
 
     // 7
+    /*const int size = 16;
+    double Z[size];
+    double sum_1 = 0;
+    double sum_2 = 0;
+
+
+    for (int i = 0; i < size; i++){
+        cin >> Z[i];
+    }
     
+    for (int i = 0; i < size; i += 2){
+        sum_1 += Z[i];
+    }
+    for (int i = 0; i < size; i += 3){
+        sum_1 += Z[i];
+    }
+
+    cout << sum_1 - sum_2;
+    */
+
+    // 9
     return 0;
 }
