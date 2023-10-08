@@ -180,7 +180,6 @@ int main(){
  
 /*8*/
 /*
-int main(){
     int n;
     cout << "n = ";
     cin >> n;
@@ -194,11 +193,10 @@ int main(){
     }
     cout << "index = " << max << endl;
     return 0;
-}
+
 */
 /*9*/
 /*
-int main(){
     int n, a;
     cout << "n = ";
     cin >> n; 
@@ -218,11 +216,10 @@ int main(){
     sort(arr3.begin(), arr3.end());
     for(int i = n; i > -1 ;i--)
         cout << arr3[i] << " ";
-}
+
 */
 /*10*/
 /*
-int main(){
     int n, a;
     cout << "n = ";
     cin >> n; 
@@ -256,11 +253,10 @@ int main(){
     for(int i = 0; i < n; i++)
         cout << arr3[i] << " ";
     
-}
+
 */
 /*11*/
 /*
-int main(){
     int n;
     cout << "n = ";
     cin >> n;
@@ -275,11 +271,10 @@ int main(){
     }
     for(int i = 0; i < n; i++)
         cout << arr2[i] << " ";
-}
+
 */
 /*12*/
 /*
-int main() {
     int n, swaps = 0;
     cout << "n = ";
     cin >> n;
@@ -305,11 +300,10 @@ int main() {
     cout << endl;
     cout << "count of swap: " << swaps << endl;
     return 0;
-}
+
 */
 /*13*/
 /*
-int main(){
     int n;
     cout << "n = ";
     cin >> n;
@@ -326,11 +320,10 @@ int main(){
     for(int i = 0; i < n; i++)
         cout << arr[i] << " ";
     return 0;
-}
+
 */
 /*14*/
 /*
-int main(){
     int n, b, c, a;
     cout << "n = ";
     cin >> n;
@@ -353,11 +346,10 @@ int main(){
     for (int i = 0; i < c; i++)
         cout << arr2[i] << " ";
     return 0;
-}
+
 */
 /*15*/
 /*
-int main(){
     int n;
     cout << "n = ";
     cin >> n;
@@ -389,11 +381,10 @@ int main(){
             cout << "element = " << max << " index = " << indexmax;
     }
     return 0;
-}
+
 */
 /*16*/
 /*
-int main(){
     int n;
     cout << "n = ";
     cin >> n;
@@ -410,11 +401,10 @@ int main(){
             break;
     }
     cout << "Sum = " << total << " count = " << count;
-}
+
 */
 /*17*/
 /*
-int main(){
     int n;
     cout << "n = ";
     cin >> n;
@@ -426,11 +416,10 @@ int main(){
             count++;
     cout << "count = " << count << endl;
     return 0;
-}
+
 */
 /*18*/
 /*
-int main(){
     int n;
     cout << "n = ";
     cin >> n;
@@ -442,11 +431,10 @@ int main(){
             count++;
     cout << "count = " << count << endl;
     return 0;
-}
+
 */
 /*19*/
 /*
-int main(){
     int n;
     cout << "n = ";
     cin >> n;
@@ -471,11 +459,10 @@ int main(){
 
     for(negindex; negindex < nullindex; negindex++)
         cout << arr[negindex] << " ";
-}
+
 */
 /*20*/
 /*
-int main(){
     int n;
     cout << "n = ";
     cin >> n;
@@ -487,7 +474,7 @@ int main(){
     for(int i = 0; i < n; i++)
         if(arr[i+1] < arr[i])
             cout << i << " ";
-}
+
 */
 /*21*/
     /*vector <int> arr;
@@ -518,7 +505,6 @@ int main(){
     
 /*22*/
 /*
-int main(){
     int n;
     cout << "n = ";
     cin >> n;
@@ -541,11 +527,10 @@ int main(){
         cout << arr3[i] << " ";
     }
     return 0;
-}
+
 */
 /*23*/
 /*
-int main(){
     int n;
     cout << "n = ";
     cin >> n;
@@ -567,11 +552,11 @@ int main(){
     p = product1%product2;
     cout << p;
     return 0;
-}
+
 */
 /*24*/
 /*
-int main(){
+
     int n;
     cout << "n = ";
     cin >> n;
@@ -586,14 +571,57 @@ int main(){
         cout << arr2[i] << " ";
     }
     return 0;
-}
+
 */
 /*25*/
-/*
-*/
+    /*const int size = 15;
+    int arr[size];
+    vector <int> arr_ans;
+
+    vector <int> arr_pre_ans;
+
+    for (int i = 0; i < size; i++){
+        cin >> arr[i];
+
+        if (arr[i] <= 0){
+            arr_ans.push_back(arr[i]);
+        }
+        else{
+            arr_pre_ans.push_back(arr[i]);
+        }
+    }
+
+    for (int i = 0; i < arr_ans.size(); i++){
+        for (int j = 0; j < arr_ans.size() - 1; j++){
+            if (arr_ans[j] > arr_ans[j + 1]){
+                int a = arr_ans[j + 1];
+                arr_ans[j + 1] = arr_ans[j];
+                arr_ans[j] = a;
+            }
+        }
+    }
+    for (int i = 0; i < arr_pre_ans.size(); i++){
+        for (int j = 0; j < arr_pre_ans.size() - 1; j++){
+            if (arr_pre_ans[j] < arr_pre_ans[j + 1]){
+                int a = arr_pre_ans[j + 1];
+                arr_pre_ans[j + 1] = arr_pre_ans[j];
+                arr_pre_ans[j] = a;
+            }
+        }
+    }
+
+    for (int i = 0; i < arr_pre_ans.size(); i++){
+        arr_ans.push_back(arr_pre_ans[i]);
+    }
+
+    for (int i = 0; i < arr_ans.size(); i++){
+        cout << arr_ans[i] << " ";
+    }
+    */
+
 /*26*/
 /*
-int main(){
+
     int n;
     cout << "n = ";
     cin >> n;
@@ -612,14 +640,45 @@ int main(){
             }
         cout << arr[i] << " ";
     }
-}
+
 */
 /*27*/
-/*
-*/
+    /*int size;
+    int ans = 0;
+    
+    cin >> size;
+
+    int arr[size];
+
+    for (int i = 0; i < size; i++){
+        cin >> arr[i];
+    }
+    int pre_num = arr[0];
+    int a = 0;
+    for (int i = 1; i < size; i++){
+        if (arr[i] > pre_num){
+            a = 1;
+            pre_num = arr[i];
+        }
+        else if (arr[i] <= pre_num){
+            if (a == 1){
+                ans++;
+            }
+            pre_num = arr[i];
+            a = 0;
+        }
+        if (i == size - 1 && a == 1){
+            ans++;
+        }
+        
+    }
+
+    cout << ans;
+    */
+
 /*28*/
 /*
-int main(){
+
     int n;
     cout << "n = ";
     cin >> n;
@@ -634,11 +693,11 @@ int main(){
             total2 += arr[i];
     }
     cout << total1%total2;
-}
+
 */
 /*29*/
 /*
-int main(){
+
     int n;
     cout << "n = ";
     cin >> n;
@@ -660,7 +719,6 @@ int main(){
 */
 /*30*/
 /*
-int main(){
     int n;
     cout << "n = ";
     cin >> n;
@@ -691,6 +749,6 @@ int main(){
     cout << '\n';
     for(int i = 0; i < n; i++)
         cout << arr2[i] << " ";
-}
+
 */return 0;
 }
