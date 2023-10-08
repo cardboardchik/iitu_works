@@ -1,0 +1,190 @@
+/*========================================= CSS Reset ====================================================================================*/
+html{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+    color: #555
+}
+body{
+
+}
+h1{
+
+}
+h2{
+    font-size: 1.6em;
+    padding: 20px 0 5px;
+}
+h3{
+    font-size: 1.15em;
+}
+h4{
+    font-size: 1.05em;
+}
+h5{
+
+}
+h6{
+
+}
+p{
+    padding: 10px 0;
+    font-size: .9em;
+    line-height: 1.5em;
+}
+a{
+
+}
+div{
+
+}
+ul{
+ 
+}
+li{
+
+}
+
+/*========================================= general styles ====================================================================================*/
+html{
+    background: #444;
+}
+h1, h2, h3, h4, h5, h6{
+    text-transform: capitalize;
+    font-weight: 700;
+}
+/*========================================= header/nav ====================================================================================*/
+header{
+    width: 100%;
+    height: 190px;
+    border-top: 11px solid #ff4646;
+    background: #fff;
+    position: relative;
+    
+}
+.logo{
+    background: url("С15_parallaxLogo.png") no-repeat;
+    width: 400px;
+    height: 116px;
+
+    position: absolute;
+    top: 25px;
+    left: 57px;
+}
+nav{
+    width: 100%;
+    background: #111;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+nav ul{
+    width: 564px;
+    overflow: auto;
+    
+    margin: auto;
+}
+nav ul li{
+    border-right: 1px solid #000000;
+    float: left;
+    list-style: none;
+
+}
+nav ul li a:link, nav ul li a:visited{
+    width: 140px;
+
+    text-decoration: none;
+
+    padding: 6px 0;
+    color: #fff;
+    background-color: #888;
+    font-size: .8em;
+    display: block;
+}
+nav ul li a:hover{
+    transition: 1s;
+    background-color: #444;
+}
+nav ul li:last-of-type{
+    border-right: 0;
+}
+nav ul li a.current{
+    background-color: #444;
+    cursor: default;
+}
+/*========================================= featureImage ====================================================================================*/
+#featureImage{
+    display: block;
+    margin: auto;
+}
+/*========================================= main ====================================================================================*/
+
+main .text{
+    width: 1000px;
+    padding-top: 70px;
+    margin: auto;
+    color: #ccc;
+}
+
+main .vid{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+/*========================================= footer ====================================================================================*/
+
+footer {
+    background: #111;
+    padding-bottom: 20px;
+}
+
+footer .prefooter{
+    color: #eee;
+    text-align: center;
+    background-color: #666;
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
+
+
+footer h4 {
+    padding: 10px 0 10px 0;
+    color: #ddd;
+}
+footer .address{
+    font-size: .75em;
+    line-height: 1.6em;
+    color: #bbb;
+}
+
+footer a:visited, a:link{
+    color: #bbb;
+}
+footer a:hover, a:active{
+    color: white;
+}
+footer .columnWrapper{
+    padding-top: 20px;
+    margin: auto;
+    text-align: center;
+}
+footer .column{
+    
+    display: inline-block;
+    text-align: left;
+    width: 180px;
+    padding: 0 0 0 10px;
+    border-right: 2px solid #777;
+}
+footer .column:last-child{
+    border-right: 0;
+}
+
+footer .aftfooter{
+    text-align: center;
+    margin-top: 60px;
+}
