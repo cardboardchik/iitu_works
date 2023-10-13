@@ -63,7 +63,6 @@ header{
     border-top: 11px solid #82c54e;
     background: #fff;
     position: relative;
-    
 }
 .logo{
     background: url("С15_parallaxLogo.png") no-repeat;
@@ -81,11 +80,11 @@ nav{
     left: 0;
     bottom: 0;
     text-align: center;
+    
 }
 nav ul{
     width: 564px;
     overflow: auto;
-    
     margin: auto;
 }
 nav ul li{
@@ -196,10 +195,9 @@ footer a:hover, a:active{
 }
 footer .columnWrapper{
     margin: auto;
-    text-align: center;
+    text-align: unset;
 }
 footer .column{
-    
     display: inline-block;
     text-align: left;
     width: 180px;
