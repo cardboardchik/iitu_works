@@ -38,6 +38,17 @@ int nok (int a, int b){
 vector <int> happy_nums_4 (){
     
 }
+
+double max_charge(int r){
+    double k = 9e9;
+    double E = 3e6;
+
+    double q;
+
+    q = 4 * k * r * E;
+    return q;
+
+}
 int main (){
     //mid level
     // 1
@@ -62,6 +73,9 @@ int main (){
     */
 
     // 3
+
+    // 4
+    
 
 
     return 0;
