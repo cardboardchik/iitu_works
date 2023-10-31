@@ -1,137 +1,137 @@
 // if 26
-        // var x = prompt();
-        
-        // if (x <= 0){
-        //     x = -x;
-        // }
-        // else if (x > 0 || x < 2){
-        //     x = x * x;
-        // }
-        // else{
-        //     x = 4;
-        // }
+// var x = prompt();
 
-        // document.write(x)
+// if (x <= 0){
+//     x = -x;
+// }
+// else if (x > 0 && x < 2){
+//     x = x * x;
+// }
+// else{
+//     x = 4;
+// }
 
-        // if 27
-        // var x = prompt();
-        
-        // if (x < 0){
-        //     x = 0;
-        // }
-        // else if (x % 2 == 0){
-        //     x = 1;
-        // }
-        // else{
-        //     x = -1;
-        // }
+// document.write(x)
 
-        //  document.write(x)
+// if 27
+// var x = prompt();
 
-        // if 28
-        // var x = prompt();
-        
-        // if (x % 4 == 0 && x % 100 == 0 && x % 400 != 0){
-        //     document.write(x, " високосный");
-        // }
-        // else{
-        //     document.write(x, "не високосный");
-        // }
+// if (x < 0){
+//     x = 0;
+// }
+// else if (x % 2 == 0){
+//     x = 1;
+// }
+// else{
+//     x = -1;
+// }
 
-        // if 29
-        // var x = prompt();
+// document.write(x)
 
-        // if (x < 0 && x % 2 == 0){
-        //     document.write("отрицательное четное число");
-        // }
-        // else if (x > 0 && x % 2 == 0){
-        //     document.write("положительное четное число");
-        // }
-        // else if (x < 0 && x % 2 != 0){
-        //     document.write("отрицательное нечетное число");
-        // }
-        // else if (x > 0 && x % 2 != 0){
-        //     document.write("положительное нечетное число");
-        // }
-        // else{
-        //     document.write("нулевое число");
-        // }
+// if 28
+// var x = prompt();
 
-        // if 30
-        // var x = prompt();
+// if (x % 4 == 0 && x % 100 == 0 && x % 400 != 0){
+//     document.write(x, " високосный");
+// }
+// else{
+//     document.write(x, " не високосный");
+// }
 
-        // if (~~(x / 100) != 0 && x % 2 == 0){
-        //     document.write("трехзначное четное число");
-        // }
-        // else if(~~(x / 100) != 0 && x % 2 != 0){
-        //     document.write("трехзначное нечетное число");
-        // }
-        // else if(~~(x / 10) != 0 && x % 2 == 0){
-        //     document.write("двухзначное четное число");
-        // }
-        // else if(~~(x / 10) != 0 && x % 2 != 0){
-        //     document.write("двухзначное нечетное число");
-        // }
-        // else if(x % 2 == 0){
-        //     document.write("однозначное четное число");
-        // }
-        // else if(x % 2 != 0){
-        //     document.write("однозначное нечетное число");
-        // }
+// if 29
+// var x = prompt();
 
-        // case 16
-        // let x = prompt();
+// if (x < 0 && x % 2 == 0){
+//     document.write("отрицательное четное число");
+// }
+// else if (x > 0 && x % 2 == 0){
+//     document.write("положительное четное число");
+// }
+// else if (x < 0 && x % 2 != 0){
+//     document.write("отрицательное нечетное число");
+// }
+// else if (x > 0 && x % 2 != 0){
+//     document.write("положительное нечетное число");
+// }
+// else{
+//     document.write("нулевое число");
+// }
 
-        // switch (~~(x / 10)) {
-        //     case 2:
-        //         document.write("Двадцать");
-        //         break;
-        //     case 3:
-        //         document.write("Тридцать");
-        //         break;
-        //     case 4:
-        //         document.write("Сорок");
-        //         break;
-        //     case 5:
-        //         document.write("Пятьдесят");
-        //         break;
-        //     case 6:
-        //         document.write("Шестьдесят");
-        //         break;
-        // }
+// if 30
+// var x = prompt();
 
-        // switch (x % 10) {
-        //     case 0:
-        //         document.write(" лет");
-        //         break;
-        //     case 1:
-        //         document.write(" один год");
-        //         break;
-        //     case 2:
-        //         document.write(" два года");
-        //         break;
-        //     case 3:
-        //         document.write(" три года");
-        //         break;
-        //     case 4:
-        //         document.write(" четыре года");
-        //         break;
-        //     case 5:
-        //         document.write(" пять лет");
-        //         break;
-        //     case 6:
-        //         document.write(" шесть лет");
-        //         break;
-        //     case 7:
-        //         document.write(" семь лет");
-        //         break;
-        //     case 8:
-        //         document.write(" восемь лет");
-        //         break;
-        //     case 9:
-        //         document.write(" девять лет");
-        //         break;  
-        // }
+// if (~~(x / 100) != 0 && x % 2 == 0){
+//     document.write("трехзначное четное число");
+// }
+// else if(~~(x / 100) != 0 && x % 2 != 0){
+//     document.write("трехзначное нечетное число");
+// }
+// else if(~~(x / 10) != 0 && x % 2 == 0){
+//     document.write("двухзначное четное число");
+// }
+// else if(~~(x / 10) != 0 && x % 2 != 0){
+//     document.write("двухзначное нечетное число");
+// }
+// else if(x % 2 == 0){
+//     document.write("однозначное четное число");
+// }
+// else if(x % 2 != 0){
+//     document.write("однозначное нечетное число");
+// }
+
+// case 16
+// let x = prompt();
+
+// switch (~~(x / 10)) {
+//     case 2:
+//         document.write("Двадцать");
+//         break;
+//     case 3:
+//         document.write("Тридцать");
+//         break;
+//     case 4:
+//         document.write("Сорок");
+//         break;
+//     case 5:
+//         document.write("Пятьдесят");
+//         break;
+//     case 6:
+//         document.write("Шестьдесят");
+//         break;
+// }
+
+// switch (x % 10) {
+//     case 0:
+//         document.write(" лет");
+//         break;
+//     case 1:
+//         document.write(" один год");
+//         break;
+//     case 2:
+//         document.write(" два года");
+//         break;
+//     case 3:
+//         document.write(" три года");
+//         break;
+//     case 4:
+//         document.write(" четыре года");
+//         break;
+//     case 5:
+//         document.write(" пять лет");
+//         break;
+//     case 6:
+//         document.write(" шесть лет");
+//         break;
+//     case 7:
+//         document.write(" семь лет");
+//         break;
+//     case 8:
+//         document.write(" восемь лет");
+//         break;
+//     case 9:
+//         document.write(" девять лет");
+//         break;  
+// }
 
 // case 17
 
@@ -653,20 +653,20 @@
 // document.write(K + " " + A1 + " " + A2)
 
 // while 30
-let A = prompt();
-let B = prompt();
-let C = prompt();
+// let A = prompt();
+// let B = prompt();
+// let C = prompt();
 
-let ans = 0;
+// let ans = 0;
 
-while (A - C >= 0){
-    A -= C;
+// while (A - C >= 0){
+//     A -= C;
 
-    let k = B;
-    while (k - C >= 0){
-        k -= C;
-        ans++;
-    }
-}
+//     let k = B;
+//     while (k - C >= 0){
+//         k -= C;
+//         ans++;
+//     }
+// }
 
-document.write(ans);
+// document.write(ans);
