@@ -1,4 +1,4 @@
-// task 2
+// // task 2
 const arman = {
     fullName: "Arman Halykov",
     weight: 78,
