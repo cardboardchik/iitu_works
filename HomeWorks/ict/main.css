@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    background-color: #ffffff;
+  }
+  
+  header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1em;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  img {
+    width: 50%;
+  }
+  
+  p {
+    font-size: 1.5em;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin-left: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
