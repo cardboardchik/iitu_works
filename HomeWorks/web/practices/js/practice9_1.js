@@ -62,6 +62,8 @@ const myCountry = {
     },
 
 };
+//myCountry.chekIsland();
+//myCountry.describe();
 
 // task 4
 // document.write(`${myCountry.conuntry} has ${myCountry.population} ${myCountry.language}-speaking people, ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}`)
