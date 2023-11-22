@@ -262,30 +262,58 @@ const game = {
 // console.log(scorers);
 
 // Task 3
-const gameEvents = new Map([ [17, '⚽ GOAL'],
-[36, '🔁 Substitution'],
-[47, '⚽ GOAL'],
-[61, '🔁 Substitution'], [64, '🔶 Yellow card'], [69, '🔴   Red card'], [70, '🔁 Substitution'],
-[72, '🔁 Substitution'],
-[76, '⚽ GOAL'],
-[80, '⚽ GOAL'],
-[92, '🔶 Yellow card'],
-]);
+// const gameEvents = new Map([ [17, '⚽ GOAL'],
+// [36, '🔁 Substitution'],
+// [47, '⚽ GOAL'],
+// [61, '🔁 Substitution'], [64, '🔶 Yellow card'], [69, '🔴   Red card'], [70, '🔁 Substitution'],
+// [72, '🔁 Substitution'],
+// [76, '⚽ GOAL'],
+// [80, '⚽ GOAL'],
+// [92, '🔶 Yellow card'],
+// ]);
 
-let events = [... new Set([...gameEvents.values()])];
-console.log(events)
+// let events = [... new Set([...gameEvents.values()])];
+// console.log(events)
 
-gameEvents.delete(64)
-console.log(gameEvents)
+// gameEvents.delete(64)
+// console.log(gameEvents)
 
-let avg = ([...gameEvents.keys()][[...gameEvents.keys()].length - 1] / [...gameEvents.values()].length).toFixed(0);
+// let avg = ([...gameEvents.keys()][[...gameEvents.keys()].length - 1] / [...gameEvents.values()].length).toFixed(0);
 
-console.log(avg)
+// console.log(avg)
 
-for (let [minute, event] of gameEvents){
-    const half = minute <= 45 ? 'FIRST HALF' : 'SECOND HALF';
-    console.log(`[${half}] ${minute} : ${event}`)
+// for (let [minute, event] of gameEvents){
+//     const half = minute <= 45 ? 'FIRST HALF' : 'SECOND HALF';
+//     console.log(`[${half}] ${minute} : ${event}`)
+// }
+
+
+// Task 4
+
+
+
+function convert(){
+  const inputData = document.getElementById("textarea").value;
+  const lines = inputData.split("\n");
+
+  let b = '✅';
+  for(let line of lines){
+    const words = line.split("_");
+    const word1 = (words[0].split(" ").join(""))[0].toLowerCase() + words[0].split(" ").join("").slice(1);
+    const word2 = (words[1].split(" ").join(""))[0].toUpperCase() + words[1].split(" ").join("").slice(1);
+    
+    const output = word1 + word2 + " " + b  + "<br>";
+    
+    b += '✅';
+
+    document.write(output)
+  }
+ 
 }
+
+
+
+
 
 
 
