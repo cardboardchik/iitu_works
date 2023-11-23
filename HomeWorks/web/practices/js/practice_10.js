@@ -1,30 +1,25 @@
 // PART 1
 
 // task 1
-// class Car {
-//     make;
-//     speed;
+function Car(m, s) {
+    this.make = m;
+    this.speed = s;
+}
 
-//     constructor(m, s) {
-//         this.make = m;
-//         this.speed = s;
-//     }
+Car.prototype.accelerate = function() {
+    this.speed += 10;
+    console.log(this.speed);
+}
+Car.prototype.brake = function() {
+    this.speed -= 5;
+    console.log(this.speed);
+}
 
-//     accelerate() {
-//         this.speed += 10;
-//         console.log(this.speed);
-//     }
-//     brake() {
-//         this.speed -= 5;
-//         console.log(this.speed);
-//     }
-// }
+const car1 = new Car("BMW", 120);
+const car2 = new Car("Mercedes", 95);
 
-// const car1 = new Car("BMW", 120);
-// const car2 = new Car("Mercedes", 95);
-
-// car1.accelerate();
-// car2.brake();
+car1.accelerate();
+car2.brake();
 
 // task 2
 // class CarCl {
@@ -290,26 +285,24 @@ const game = {
 
 // Task 4
 
+// function convert(){
+//   const inputData = document.getElementById("textarea").value;
+//   const lines = inputData.split("\n");
 
-
-function convert(){
-  const inputData = document.getElementById("textarea").value;
-  const lines = inputData.split("\n");
-
-  let b = '✅';
-  for(let line of lines){
-    const words = line.split("_");
-    const word1 = (words[0].split(" ").join(""))[0].toLowerCase() + words[0].split(" ").join("").slice(1);
-    const word2 = (words[1].split(" ").join(""))[0].toUpperCase() + words[1].split(" ").join("").slice(1);
+//   let b = '✅';
+//   for(let line of lines){
+//     const words = line.split("_");
+//     const word1 = (words[0].split(" ").join(""))[0].toLowerCase() + words[0].split(" ").join("").slice(1);
+//     const word2 = (words[1].split(" ").join(""))[0].toUpperCase() + words[1].split(" ").join("").slice(1);
     
-    const output = word1 + word2 + " " + b  + "<br>";
+//     const output = word1 + word2 + " " + b  + "<br>";
     
-    b += '✅';
+//     b += '✅';
 
-    document.write(output)
-  }
+//     document.write(output)
+//   }
  
-}
+// }
 
 
 
