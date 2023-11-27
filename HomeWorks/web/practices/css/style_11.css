@@ -1,0 +1,78 @@
+body {
+    font-family: '8BIT WONDER', sans-serif;
+    background-color: #222;
+    color: #fff;
+}
+
+button{
+    font-family: '8BIT WONDER', sans-serif;
+    background-color: #dedede;
+    border: 0;
+    width: 100px;
+    height: 30px;
+}
+p {
+    float: right;
+    margin: 0
+}
+h1{
+    text-align: center;
+}
+
+.num{
+    color: #222;
+    background-color: #fff;
+    margin: auto;
+    width: 150px;
+    height: 60px;
+}
+.num h1{
+    padding-top: 10px;
+}
+
+hr{
+    position: relative;
+    top: -33px;
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    border: 0;
+    height: 6px;
+    z-index: -1;
+}
+
+.body{
+    display: flex;
+   
+    margin-top: 100px;
+}
+
+.input {
+    flex: 1;
+    text-align: center;
+    
+    
+    margin: auto 9vw;
+}
+input {
+    font-family: '8BIT WONDER', sans-serif;
+    font-size: 32px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    border: 3px solid #fff;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    
+    padding: 0px 0px 5px 0px;
+
+}
+#check_btn{
+    margin-top: 20px;
+    
+}
+.inform {
+    flex: 1;
+    
+    margin: 0 0 0 9vw;
+}

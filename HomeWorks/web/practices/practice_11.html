@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 11</title>
+    <link rel="stylesheet" href="css/style_11.css">
+    <link href="https://fonts.cdnfonts.com/css/8bit-wonder" rel="stylesheet">
+
+</head>
+<body>
+    <script src="js/practice_11.js"></script>
+
+    <header>
+        <button type="button" onclick="again_clicked()">Again!</button>
+        <p>(Between 1 and 20)</p>
+        <h1>Catch the Number!</h1>
+    </header>
+    
+    <div class="num"><h1 id="f_num">?</h1></div>
+    <hr>
+    <div class="body">
+        <div class="input">
+            <input type="text" id="input_n">
+            <br>
+            <button id="check_btn" onclick="checkNumber(document.getElementById('input_n').value)">Check!</button>
+        </div>
+        <div class="inform">
+            <h4 id="hint">Start catching...</h4>
+            <br>
+            <h4 id="score_now">Your Score: 20</h4>
+            <h4 id="high_score">Highscore: 0</h4>
+        </div>
+    </div>
+</body>
+</html>
