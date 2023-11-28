@@ -29,9 +29,10 @@ function checkNumber(input_n) {
         if (score_now > highScore){
             highScore = score_now;
             document.getElementById("high_score").innerHTML = `Highscore: ${highScore}`
-
-            score_now = 20;
         }
+
+        score_now = 20;
+
         return true;
     }
     else if (input_n > secretNumber){
