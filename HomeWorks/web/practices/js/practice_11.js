@@ -1,4 +1,4 @@
-// Task 1
+
 // function printForecast(arr) {
 //     result = ""
 //     for (let i = 1; i <= arr.length; i++){
@@ -18,14 +18,14 @@ let score_now = 20;
 function checkNumber(input_n) {
     document.body.style.backgroundColor = "#222";
     if (input_n == secretNumber){
-        document.getElementById("f_num").innerHTML = secretNumber;
+        document.getElementById("f_num").innerHTML = `${secretNumber}`;
         document.getElementById("hint").innerHTML = 'Correct Number!';
         document.body.style.backgroundColor = "green";
 
         secretNumber = ~~(Math.random() * 20 + 1);
 
         document.getElementById('input_n').value = '';
-        document.getElementById("f_num").innerHTML = "?";
+        
         if (score_now > highScore){
             highScore = score_now;
             document.getElementById("high_score").innerHTML = `Highscore: ${highScore}`

@@ -1,25 +1,25 @@
 // PART 1
 
 // task 1
-function Car(m, s) {
-    this.make = m;
-    this.speed = s;
-}
+// function Car(m, s) {
+//     this.make = m;
+//     this.speed = s;
+// }
 
-Car.prototype.accelerate = function() {
-    this.speed += 10;
-    console.log(this.speed);
-}
-Car.prototype.brake = function() {
-    this.speed -= 5;
-    console.log(this.speed);
-}
+// Car.prototype.accelerate = function() {
+//     this.speed += 10;
+//     console.log(this.speed);
+// }
+// Car.prototype.brake = function() {
+//     this.speed -= 5;
+//     console.log(this.speed);
+// }
 
-const car1 = new Car("BMW", 120);
-const car2 = new Car("Mercedes", 95);
+// const car1 = new Car("BMW", 120);
+// const car2 = new Car("Mercedes", 95);
 
-car1.accelerate();
-car2.brake();
+// car1.accelerate();
+// car2.brake();
 
 // task 2
 // class CarCl {
