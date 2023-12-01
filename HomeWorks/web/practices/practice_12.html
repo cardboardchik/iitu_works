@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/practice_12.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div id="bd">
+    <button id="ShowModal_1">Show the first module</button>
+    <br>
+    <button id="ShowModal_2">Show the second module</button>
+    <br>
+    <button id="ShowModal_3">Show the third module</button>
+
+    <dialog class="modal" id="modal">
+        <div>
+        <h3>Enter Your Information</h3>
+        <form method="dialog">
+            <label>Full name: <br><input type="text"></label>
+            <button type="submit">Submit Information</button>
+        </form>    
+
+        <button id="CloseModal_1">Close</button>
+        </div>
+    </dialog>
+
+    <dialog class="modal" id="modal2">
+        <div>
+        <h3>INFO</h3>
+        <p>Вот вам яркий пример современных тенденций — консультация с широким активом является качественно новой ступенью новых принципов формирования материально-технической и кадровой базы. Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение направлений прогрессивного развития.
+        </p>
+
+        <button id="CloseModal_2">Close</button>
+    </div>
+    </dialog>
+
+    <dialog class="modal" id="modal3">
+        <div>
+        <p><i class="material-icons" style="font-size:48px;color:red">error_outline</i> <br>ERROR!</p>
+        <button id="CloseModal_3">Close</button>
+        </div>
+    </dialog>
+
+    <script src="js/practice_12.js"></script>
+    </div>
+</body>
+</html>
