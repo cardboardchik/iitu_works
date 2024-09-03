@@ -45,5 +45,6 @@
         "streambuf": "cpp",
         "typeinfo": "cpp",
         "fstream": "cpp"
-    }
+    },
+    "java.debug.settings.onBuildFailureProceed": true
 }
