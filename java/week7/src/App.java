@@ -51,7 +51,7 @@ public class App {
 
             System.out.println("User signed up successfully!");
         } catch (IOException e) {
-            System.out.println("An error occurred while signing up: " + e.getMessage());
+            System.out.println("error: " + e.getMessage());
         }
     }
 
